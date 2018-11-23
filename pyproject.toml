@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "approuteframework"
+name = "approute"
 version = "0.1.0"
 description = "App Route Framework for Flask"
 authors = ["Ryan Heywood (RyanSquared) <ryan@hashbang.sh>"]

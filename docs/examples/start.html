@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Example</title>
+  </head>
+  <body>
+    {{ message }}
+    <h2>To Buy:</h2>
+    <ul>
+{% for item in list %}
+      <li>{{ item }}</li>
+{% endfor %}
+    </ul>
+  </body>
+</html>

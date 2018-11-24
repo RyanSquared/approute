@@ -1,6 +1,6 @@
 ## Installation
 
 ```sh
-yarn install
-poetry install
+poetry build
+find dist -name '*whl' -exec pip3 install --user {} \;
 ```
